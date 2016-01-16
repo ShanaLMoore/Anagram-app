@@ -39,6 +39,10 @@ input[type="text"] {
 	color: #000;
 }
 
+p {
+	text-align: center;
+}
+
 /*class tags*/
 
 .word {

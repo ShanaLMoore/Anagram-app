@@ -1,7 +1,11 @@
 <div class="Header">
 <h2>Welcome to our</h2>
 <h1>ANAGRAM GENERATOR</h1>
- 
+
+ <% if @error.present? %>
+  <p class='error'><%= "#{@error}" %></p>
+<% end %>
+
 <form action="/" method="post" class="form">
 	<br>
   <label for="word">Enter a word. Only 3 letters please!</label>
